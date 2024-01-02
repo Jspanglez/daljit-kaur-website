@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #999999;
+
+}
+
+header {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: blueviolet;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Mobile-first styles */
+h1, h2, p, img {
+  max-width: 100%;
+}
+
+/* Media query for larger screens */
+@media (min-width: 600px) {
+  main {
+      max-width: 600px;
+      margin: 0 auto;
+  }
+}
